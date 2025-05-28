@@ -1,5 +1,6 @@
         html{
             scroll-behavior:smooth;
+
         }
         body{
             margin:0;
@@ -14,24 +15,27 @@
         header{
             position:fixed;
             background-color:gold;
-            position:fixed;
+          
             width:100%;
             display:flex;
             justify-content: space-between;
             color:ivory;
             z-index:4;
+            display:inline-block;
         }
         ul {
             display:flex;
             justify-content: space-around;
-            gap:30px;
+            gap:20px;
             list-style:none;
+          
 
         }
         
         li a{
              text-decoration:none;
              color:maroon;
+             
                
         }
         li a:hover{
@@ -41,7 +45,8 @@
             border:3px solid ivory;
             border-radius:55px;
             box-shadow: 0 0 12px;
-             scale:(0.9);
+             
+             
               
         }
         .Home{
@@ -173,3 +178,4 @@
     border-radius:33px;
     
 }
+ 
