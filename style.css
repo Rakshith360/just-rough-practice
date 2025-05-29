@@ -6,6 +6,8 @@
             display:inline-block;
             margin:0;
             padding:0;
+            text-align:center;
+            justify-content:center;
             text-decoration:none;
             width:100%;
             overflow-x:hidden;
@@ -260,6 +262,48 @@
     box-shadow:0 0 23px ivory;
     background-color:navy;
     border:6px solid gold;
+ }
+ 
+ 
+ button{
+    background-color:gold;
+    color:navy;
+    padding:12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    font-style:oblique;
+    border:2px solid ivory;
+    border-radius:33px;
+    float: left;
+    text-align:center;
+    
+    transition:opacity(0.5);
+    animation:color;
+    animation-timing-function:linear;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-duration:12s;
+
+ }
+ @keyframes color{
+    10%{background-color:gold};
+    20%{background-color:navy};
+    30%{background-color:maroon};
+    40%{background-color:orange};
+    50%{background-color:white};
+    60%{background-color:royalblue};
+    70%{background-color:aqua};
+    80%{background-color:gray};
+    90%{background-color:pink};
+    100%{background-color:brown};
+ }
+ button:hover{
+    box-shadow:0 0 55px ivory;
+    color:gold;
+    background-color:navy;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    transform:rotate(0.5);
  }
  
  
