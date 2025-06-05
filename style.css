@@ -7,13 +7,25 @@
             margin:0;
             padding:0;
             text-align:center;
-             
+             animation:appear linear;
+             animation-timeline: view();
+             animation-range:entry 0% cover 40%;
             width:100%;
             overflow-x:hidden;
             list-style:none;
              background-color:black;
              
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        @keyframes appear {
+            from {
+                opacity:1;
+                transform:translateX(-100px);
+            }
+            to {
+                opacity: 1;
+                transform:translateX(0px);
+            }
         }
         header{
             position:fixed;
@@ -387,7 +399,7 @@
     
 }
 .box h1{
-    text-shadow:0px 0px  5px ivory, 0px 0px -5px  gold;
+    text-shadow:0px 0px  5px ivory, 0px -5px 5px  gold;
     font-family:'Times New Roman', Times, serif;
     font-style:oblique;
     font-weight:bold;
@@ -399,6 +411,6 @@
     font-family:Arial, Helvetica, sans-serif;
     font-style:italic;
     font-weight:bolder;
-    
+     
  }
  
